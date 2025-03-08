@@ -1,0 +1,16 @@
+{
+  "name": "validador-de-bandeiras",
+  "version": "1.0.0",
+  "description": "Projeto para identificar a bandeira de um cartão de crédito com base no número fornecido.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Lorena da Cruz",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
+
