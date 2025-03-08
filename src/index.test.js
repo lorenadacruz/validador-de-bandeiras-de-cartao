@@ -1,4 +1,6 @@
-const { identificarBandeiraCartao } = require('./index');
+// index.test.js
+
+const { identificarBandeiraCartao } = require('./index'); // Importa a função do arquivo index.js
 
 test('identificar bandeira Visa', () => {
   const numeroCartao = '4916195016675475'; // Visa de 16 dígitos
