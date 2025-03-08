@@ -4,12 +4,32 @@ Este projeto permite identificar a bandeira de um cartão de crédito com base n
 
 ---
 
-## 🚀 Tecnologias e Pré-requisitos
+## 🚀 Tecnologias Utilizadas
+
+- **Node.js**: Ambiente de execução JavaScript, utilizado para rodar o código do projeto.
+- **npm**: Gerenciador de pacotes do Node.js, usado para instalar as dependências necessárias.
+- **Jest**: Framework de testes utilizado para garantir que o código esteja funcionando corretamente.
+- **Algoritmo de Luhn**: Implementado para validar o número do cartão, garantindo que o número fornecido seja válido.
+
+---
+
+## 🛠️ Funcionalidades
+
+- **Identificação de Bandeiras**: O sistema identifica bandeiras populares de cartões de crédito, como Visa, MasterCard, e American Express, com base no número fornecido.
+  
+- **Validação do Número de Cartão**: Utiliza o **Algoritmo de Luhn** para validar o número do cartão e garantir que o número fornecido seja válido.
+  
+- **Validação de Formato de Cartão**: Verifica se o formato do número de cartão corresponde ao da bandeira identificada.
+
+---
+
+## 📋 Pré-requisitos
 
 Para rodar o projeto, você precisará dos seguintes itens instalados:
 
 - **Node.js** (versão 14 ou superior)
 - **npm** (gerenciador de pacotes do Node.js)
+- **Jest** (framework de testes, será instalado automaticamente ao rodar `npm install`)
 
 ---
 
